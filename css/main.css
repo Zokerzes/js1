@@ -30,3 +30,8 @@
   border: 1px solid black;
   text-align: center;
 }
+#box3 {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(235, 162, 162);
+}

@@ -16,7 +16,7 @@
   <form action="" class="myform">
     <div id="box"></div>
     <div class="input-group1">
-      <input type="text" id="inp">
+      <input type="text" id="inp" placeholder="input text in format: 112233">
       <span type="submit" value="Отправить" id='submit'>
         Отправить
       </span>
@@ -25,14 +25,22 @@
   <form action="" class="myform">
     <div id="box1"></div>
     <div class="input-group2">
-      <input type="checkbox" id="elem" value="">
-      <input type="checkbox" id="elem">
-      <input type="checkbox" id="elem">
-      <input type="checkbox" name="" id="">
-      <span type="submit" value="Отправить" id='submit1'>
-        Отправить
-      </span>
+      <input type="radio" name="color" value="red" id="red" title="red">
+      <label for="#red">red</label>
+      <input type="radio" name="color" value="yellow" id="yellow">
+      <label for="#yellow">yellow</label>
+      <input type="radio" name="color" value="blue" id="blue">
+      <label for="#blue">blue</label>
+      <input type="submit" value="Отправить" id='submit1'>
+      </input>
     </div>
+  </form>
+
+  <form action="" class="myform">
+    <div id="box3"></div>
+    <div class="input-group3">
+      <input type="submit" value="Отправить" id='submit3'>
+
     </div>
   </form>
   <script src="./js/main.js">
